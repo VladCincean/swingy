@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ro.academyplus.swingy.view.gui.PlayMission">
+  <grid id="27dc6" binding="panelPlayMission" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="727" height="509"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <focusCycleRoot value="false"/>
+      <preferredSize width="1200" height="1200"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="71d8b" class="javax.swing.JButton" binding="buttonNorth">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="North"/>
+        </properties>
+      </component>
+      <component id="45aa0" class="javax.swing.JButton" binding="buttonWest">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="West"/>
+        </properties>
+      </component>
+      <component id="48cc3" class="javax.swing.JButton" binding="buttonEast">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="East"/>
+        </properties>
+      </component>
+      <component id="cf2ae" class="javax.swing.JTextPane" binding="textPaneMap">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font name="Courier New" size="18"/>
+          <inheritsPopupMenu value="true"/>
+        </properties>
+      </component>
+      <component id="dbf7" class="javax.swing.JButton" binding="buttonFight">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Fight"/>
+        </properties>
+      </component>
+      <component id="5c16e" class="javax.swing.JButton" binding="buttonRun">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Run"/>
+        </properties>
+      </component>
+      <component id="31450" class="javax.swing.JButton" binding="buttonSouth">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="South"/>
+        </properties>
+      </component>
+      <component id="ef729" class="javax.swing.JTextPane" binding="textPaneStats">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
